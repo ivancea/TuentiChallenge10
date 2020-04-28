@@ -22,7 +22,6 @@ int main(){
             }
         }
 
-
         cout << "Case #" << i << ": " << (result < 0 ? "IMPOSSIBLE" : to_string(result)) << endl;
     }
 }

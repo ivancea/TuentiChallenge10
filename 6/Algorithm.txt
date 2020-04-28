@@ -1,0 +1,7 @@
+Algorithm:
+Node { visited?, relatedNodes }
+Map<Position, Node>
+
+While not solvable, go to nearest non-visited node.
+If all near nodes visited, find an objective and go to it.
+When visiting nodes, fill every 5x5 cell node with edges
