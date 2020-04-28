@@ -6,6 +6,7 @@
 #include <set>
 #include <cmath>
 #include "sockets.cpp"
+#include "strings.h"
 
 using namespace std;
 
@@ -231,7 +232,7 @@ int main(){
 
         if (nextNode != nullptr) {
             string nextStep = getStep(currentNode->position, nextNode->position);
-            //cout << currentNode->position.x << ", " << currentNode->position.y << endl;
+            cout << currentNode->position.x << ", " << currentNode->position.y << endl;
             client.send(nextStep + "\n");
             zeroPointDiff.x += nextNode->position.x - currentNode->position.x;
             zeroPointDiff.y += nextNode->position.y - currentNode->position.y;
