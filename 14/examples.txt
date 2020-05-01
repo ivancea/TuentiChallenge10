@@ -1,0 +1,10 @@
+ROUND 591: 1 -> ACCEPT_IGNORE {id: {100,9}, value: {servers: [1,3,4,5,6,7,8,9], secret_owner: 9}} (NOT TRUSTWORTHY TO CHANGE SECRET OWNER)
+ROUND 591: 9 -> ACCEPT {id: {100,9}, value: {servers: [1,3,4,5,6,7,8,9], secret_owner: 9}}
+ROUND 591: 9 -> ACCEPTED {servers: [1,3,4,5,6,7,8,9], secret_owner: 9}
+ROUND 591: 9 -> LEARN {servers: [1,2,4,5,6,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 591: 9 -> PREPARE {100,9}
+ROUND 591: 9 -> PROMISE {100,9} no_proposal
+ROUND 591: ACCEPT {id: {100,9}, value: {servers: [1,3,4,5,6,7,8,9], secret_owner: 9}} -> 1
+ROUND 591: ACCEPTED {servers: [1,3,4,5,6,7,8,9], secret_owner: 9} -> 9
+ROUND 591: PREPARE {100,9} -> 1
+ROUND 591: PROMISE {100,9} no_proposal -> 9
